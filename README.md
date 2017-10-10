@@ -14,6 +14,6 @@ Add latinize.js and ng-latinize.js to your source. Eg;
 
 Add ng-latinize directive to your html element. Eg;
 ```
-<input type="text" ng-model="test" latinize />
-<input type="text" ng-model="test" data-capitalize="true" latinize />
+<input type="text" ng-model="test" ng-latinize />
+<input type="text" ng-model="test" data-capitalize="true" ng-latinize />
 ```

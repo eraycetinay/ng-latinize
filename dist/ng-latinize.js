@@ -11,7 +11,7 @@
   'use strict';
   var moduleName = 'ngLatinize';
   var mod = angular.module(moduleName, []); ;
-  mod.directive('latinize', function() {
+  mod.directive('ngLatinize', function() {
     return {
       require: 'ngModel',
       scope:{
