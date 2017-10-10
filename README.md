@@ -1,6 +1,11 @@
 # ng-latinize
 A simple angular directive for latinize.js with capitalize option.
 
+Installation
+```
+npm install ng-latinize or bower install ng-latinize
+```
+
 Add latinize.js and ng-latinize.js to your source. Eg;
 ```
 <script src="bower_components/latinize/latinize.js"></script>
