@@ -1,6 +1,6 @@
 {
   "name": "ng-latinize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Eray Cetinay <eraycetinay@gmail.com>",
   "main": "dist/ng-latinize.js",
   "description": "A simple angular directive for latinize.js with capitalize option.",
@@ -16,5 +16,5 @@
     "angular",
     "latinize"
   ],
-  "license": "ISC"
+  "license": "MIT"
 }
