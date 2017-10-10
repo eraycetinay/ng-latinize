@@ -1,5 +1,6 @@
 {
   "name": "ng-latinize",
+  "version": "1.0.5",
   "description": "A simple angular directive for latinize.js with capitalize option.",
   "main": "dist/ng-latinize.js",
   "authors": [
