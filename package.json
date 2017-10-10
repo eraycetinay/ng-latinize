@@ -1,0 +1,19 @@
+{
+  "name": "ng-latinize",
+  "version": "1.0.0",
+  "author": "Eray Cetinay <eraycetinay@gmail.com>",
+  "main": "dist/ng-latinize.js",
+  "description": "A simple angular directive for latinize.js with capitalize option.",
+  "peerDependencies": {
+    "angular": "^1.2.x || >= 1.4.0-beta.0 || >= 1.5.0-beta.0",
+    "latinize": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "latinize"
+  ],
+  "license": "ISC"
+}
