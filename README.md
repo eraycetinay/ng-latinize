@@ -32,13 +32,13 @@ bower install ng-latinize
 - Add capitalize param to your input or variable
 ```
 <input type="text" ng-model="test" data-capitalize="true" ng-latinize />
-{{ text | ngLatinize:true }}
+{{ anothertext | ngLatinize:true }}
 ```
 ## Example
 If you enter **ỆᶍǍᶆṔƚÉ áéíóúýčďěňřšťžů** to the input below.
 ```
-<input type="text" ng-model="test" />
-{{ text | ngLatinize:true }}
+<input type="text" ng-model="accentedLetter" />
+{{ accentedLetter | ngLatinize:true }}
 ```
 It will convert the string to **EXAMPLE AEIOUYCDENRSTZU**.
 ## License
