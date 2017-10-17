@@ -1,7 +1,7 @@
 {
   "name": "ng-latinize",
   "version": "1.0.6",
-  "description": "A simple angular directive for latinize.js with capitalize option.",
+  "description": "Angularjs directive and angularjs filter; which use latinize.js to convert accents (diacritics) from strings to latin characters.",
   "main": "dist/ng-latinize.js",
   "authors": [
     "Eray Cetinay <eraycetinay@gmail.com>"
