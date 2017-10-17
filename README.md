@@ -19,7 +19,7 @@ bower install ng-latinize
 <script src="bower_components/latinize/latinize.js"></script>
 <script src="bower_components/ng-latinize/dist/ng-latinize.js"></script>
 ```
-## Basic Setup
+### Basic Setup
 - Add ng-latinize directive to your input element.
 ```
 <input type="text" ng-model="test" ng-latinize />
@@ -28,7 +28,7 @@ bower install ng-latinize
 ```
 {{ text | ngLatinize }}
 ```
-## Capitalize Setup
+### Capitalize Setup
 - Add capitalize param to your input or variable
 ```
 <input type="text" ng-model="test" data-capitalize="true" ng-latinize />
