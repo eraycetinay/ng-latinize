@@ -24,15 +24,21 @@ bower install ng-latinize
 ```
 <input type="text" ng-model="test" ng-latinize />
 ```
+- Add ngLatinize filter anywhere you need.
+```
+{{ text | ngLatinize }}
+```
 ## Capitalize Setup
-- Add capitalize param to your element.
+- Add capitalize param to your input or variable
 ```
 <input type="text" ng-model="test" data-capitalize="true" ng-latinize />
+{{ text | ngLatinize:true }}
 ```
 ## Example
 If you enter **ỆᶍǍᶆṔƚÉ áéíóúýčďěňřšťžů** to the input below.
 ```
-<input type="text" ng-model="test" data-capitalize="true" ng-latinize />
+<input type="text" ng-model="test" />
+{{ text | ngLatinize:true }}
 ```
 It will convert the string to **EXAMPLE AEIOUYCDENRSTZU**.
 ## License
