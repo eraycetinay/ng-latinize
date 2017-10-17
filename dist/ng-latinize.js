@@ -15,14 +15,14 @@
     return {
       require: 'ngModel',
       scope:{
-      	capitalize: '='
+        capitalize: '='
       },
       link: function(scope, element, attrs, modelCtrl) {
         var latinizedvalue = function(inputValue) {
           if (inputValue == undefined) inputValue = '';
           var latinized = latinize(inputValue);
           if(scope.capitalize) {
-          	latinized = latinized.toUpperCase();
+            latinized = latinized.toUpperCase();
           }
           if (latinized !== inputValue) {
             modelCtrl.$setViewValue(latinized);
@@ -33,6 +33,19 @@
         modelCtrl.$parsers.push(latinizedvalue);
         latinizedvalue(scope[attrs.ngModel]);
       } }
+  });
+  mod.filter('ngLatinize', function () {
+      return function(input,capitalize) {
+        var latinizedvalue = function(inputValue) {
+          if (inputValue == undefined) inputValue = '';
+          var latinized = latinize(inputValue);
+          if(capitalize) {
+            latinized = latinized.toUpperCase();
+          } 
+          return latinized;
+        }
+        return latinizedvalue(input);
+      }
   });
   return moduleName;
 }));
