@@ -30,10 +30,10 @@ bower install ng-latinize
 <input type="text" ng-model="test" data-capitalize="true" ng-latinize />
 ```
 ## Example
-- If you enter 'ỆᶍǍᶆṔƚÉ áéíóúýčďěňřšťžů' to the input below.
+If you enter **ỆᶍǍᶆṔƚÉ áéíóúýčďěňřšťžů** to the input below.
 ```
 <input type="text" ng-model="test" data-capitalize="true" ng-latinize />
 ```
-- It will convert the string to 'EXAMPLE AEIOUYCDENRSTZU'.
+It will convert the string to **EXAMPLE AEIOUYCDENRSTZU**.
 ## License
 [MIT](LICENSE) license.
