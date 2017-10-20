@@ -2,8 +2,6 @@
 [![npm version](https://badge.fury.io/js/ng-latinize.svg)](https://badge.fury.io/js/ng-latinize)
 [![Bower](https://img.shields.io/bower/v/ng-latinize.svg)]()
 [![dependency Status](https://david-dm.org/eraycetinay/ng-latinize.svg)](https://david-dm.org/eraycetinay/ng-latinize.svg)
-[![Github All Releases](https://img.shields.io/github/downloads/eraycetinay/ng-latinize/total.svg)]()
-[![npm](https://img.shields.io/npm/dt/ng-latinize.svg)]()
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 Angularjs directive and angularjs filter; which use latinize.js to convert accents (diacritics) from strings to latin characters.
